@@ -3,12 +3,12 @@ This is a following of a tutorial to make a chat example with gRPC by [techblog.
 
 ## Install
 
-npm install
+- npm install
 
 ## Run
 
-node client
-node server
+- node client
+- node server
 
 ## Instructions
 
