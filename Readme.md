@@ -7,5 +7,9 @@ npm install
 
 ## Run
 
-node client.js
-node server.js
+node client
+node server
+
+## Instructions
+
+Open a node server and then two node clients, write your name on the clients, and then you can chat between them from the console
