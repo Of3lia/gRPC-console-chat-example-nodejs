@@ -2,7 +2,7 @@ syntax = "proto3"; // Specify proto3 version.enum.
 package example; // Optional: unique package name.
 
 service Chat { // Service class to be used by the clients
-    rpc join(stream Message returns stream Message) {}
+    rpc join(stream Message) returns (stream Message) {}
     rpc send(Message) returns (Message){}
 }
 
